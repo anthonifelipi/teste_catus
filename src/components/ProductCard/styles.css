@@ -1,0 +1,71 @@
+.product-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 280px; /* Largura fixa */
+    height: 511px; /* Altura fixa */
+    box-sizing: border-box; /* Garante que o padding e a borda sejam incluídos na largura total */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product-image {
+    width: 100%; /* Ocupa toda a largura do cartão */
+    height: auto;
+    max-height: 180px; /* Altura máxima para a imagem */
+    object-fit: contain; /* Mantém a proporção da imagem e preenche a área do contêiner */
+    margin-bottom: 10px;
+}
+
+.product-info {
+    flex-grow: 1; /* Permite que o conteúdo do produto cresça */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product-name {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.product-description {
+    font-size: 0.9em;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+.product-original-price {
+    font-size: 1em;
+    color: #888;
+    text-decoration: line-through;
+    margin-bottom: 5px;
+}
+
+.product-price {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.product-installments {
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.add-to-cart-button {
+    background-color: #A4BEBF;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-to-cart-button:hover {
+    background-color: #555;
+}
