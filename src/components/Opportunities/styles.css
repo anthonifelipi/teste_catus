@@ -13,9 +13,9 @@
 }
 
 .opportunities h2::after {
-    content: '';
+    content: '';    
     display: block;
-    width: 60px;
+    width: 80%;
     height: 2px;
     background-color: #ccc; /* Linha cinza clara */
     margin: 10px auto 0;

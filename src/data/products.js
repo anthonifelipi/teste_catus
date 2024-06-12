@@ -7,7 +7,7 @@ const products = [
     originalPrice: "R$ 582,00",
     price: "238,41",
     installments: "5x de R$ 47,68 sem juros",
-    image: require("../assets/product1.png"),
+    image: require("../assets/img/product1.png"),
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const products = [
     originalPrice: "R$ 582,00",
     price: "238,41",
     installments: "5x de R$ 47,68 sem juros",
-    image: require("../assets/product2.png"),
+    image: require("../assets/img/product2.png"),
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ const products = [
     originalPrice: "R$ 582,00",
     price: "238,41",
     installments: "5x de R$ 47,68 sem juros",
-    image: require("../assets/product3.png"),
+    image: require("../assets/img/product3.png"),
   },
   {
     id: 4,
@@ -37,7 +37,7 @@ const products = [
     originalPrice: "R$ 582,00",
     price: "238,41",
     installments: "5x de R$ 47,68 sem juros",
-    image: require("../assets/product4.png"),
+    image: require("../assets/img/product4.png"),
   },
   {
     id: 5,
@@ -47,7 +47,7 @@ const products = [
     originalPrice: "R$ 582,00",
     price: "238,41",
     installments: "5x de R$ 47,68 sem juros",
-    image: require("../assets/product4.png"),
+    image: require("../assets/img/product4.png"),
   },
 ];
 

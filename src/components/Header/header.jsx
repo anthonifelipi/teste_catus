@@ -1,7 +1,7 @@
 import "./styles.css";
-import logo from "../assets/logo.png";
-import search from "../assets/search.png";
-import cartIcon from "../assets/cartIcon.png";
+import logo from "../../assets/img/logo.png"
+import search from "../../assets/img/search.png"
+import cartIcon from "../../assets/img/cartIcon.png";
 
 const Header = () => {
   return (

@@ -1,0 +1,31 @@
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+.gallery-column {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.gallery-image {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.gallery-image.small {
+  width: 100%;
+  max-width: 378px;
+  height: 235px;
+}
+
+.gallery-image.large {
+  width: 378px;
+  height: 100%;
+}
