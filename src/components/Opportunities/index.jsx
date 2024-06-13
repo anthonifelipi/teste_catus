@@ -5,12 +5,6 @@ import "./styles.css";
 import left from "../../assets/img/left.png";
 import right from "../../assets/img/right.png";
 
-const scrollCarousel = (direction) => {
-  const carousel = document.querySelector(".product-carousel");
-  const scrollAmount = direction === "left" ? -300 : 300;
-  carousel.scrollBy({ left: scrollAmount, behavior: "smooth" });
-};
-
 const Opportunities = () => {
   const [startIndex, setStartIndex] = useState(0);
   const productsPerPage = 4;

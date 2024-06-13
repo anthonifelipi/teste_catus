@@ -1,65 +1,97 @@
 .opportunities {
-    padding: 20px 0;
-    background-color: #f8f8f8;
-    position: relative; /* Para posicionar as setas de navegação */
+  padding: 20px 0;
+  background-color: #f8f8f8;
+  position: relative;
 }
 
 .opportunities h2 {
-    text-align: center;
-    margin-bottom: 20px;
-    font-size: 1.5em;
-    color: #333;
-    position: relative;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.5em;
+  color: #333;
+  position: relative;
 }
 
 .opportunities h2::after {
-    content: '';    
-    display: block;
-    width: 80%;
-    height: 2px;
-    background-color: #ccc; /* Linha cinza clara */
-    margin: 10px auto 0;
+  content: "";
+  display: block;
+  width: 80%;
+  height: 2px;
+  background-color: #ccc; 
+  margin: 10px auto 0;
 }
 
 .product-carousel-wrapper {
-    position: relative;
-    max-width: 1200px;
-    margin: 0 auto;
-    overflow: hidden;
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 .product-carousel {
-    display: flex;
-    justify-content: center; /* Centraliza os itens */
-    gap: 20px; /* Espaçamento entre os cartões */
-    overflow-x: auto;
-    scroll-behavior: smooth;
-    padding: 20px 0; /* Espaçamento interno para as setas */
+  display: flex;
+  justify-content: center; 
+  gap: 20px; 
+  scroll-behavior: smooth;
+  padding: 20px 0; 
 }
 
 .arrow {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    z-index: 10;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
 }
 
 .arrow.left {
-    left:-5px;
+  left: -5px;
 }
 
 .arrow.right {
-    right: -5px;
+  right: -5px;
 }
 
 .arrow img {
-    width: 15px;
-    height: 15px;
+  width: 15px;
+  height: 15px;
+}
+
+@media (max-width: 1024px) {
+  .product-carousel {
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .product-carousel > * {
+    width: 100%;
+    max-width: 378px;
+  }
+
+  .arrow {
+    display: none;
+  }
+}
+
+@media (max-width: 720px) {
+  .product-carousel {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product-carousel > * {
+    width: 100%;
+    max-width: 378px;
+  }
+
+  .arrow {
+    display: none;
+  }
 }

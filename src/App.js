@@ -6,14 +6,14 @@ import Opportunities from "./components/Opportunities";
 
 function App() {
   return (
-    <>
+    <div>
       <Header />
       <Gallery />
       <main>
         <Opportunities />
       </main>
       <Footer />
-    </>
+    </div>
   );
 }
 

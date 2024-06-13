@@ -1,6 +1,4 @@
 import "./styles.css";
-
-// Importa as imagens da pasta assets
 import googleSecurity from "../../assets/img/googleSecurity.png";
 import protectStore from "../../assets/img/protectStore.png";
 import visa from "../../assets/img/visa.png";
@@ -41,6 +39,7 @@ const Footer = () => {
             <img src={visa} alt="Visa" />
             <img src={mastercard} alt="Mastercard" />
             <img src={amex} alt="American Express" />
+            <img src={diners} alt="American Express" />
             <img src={discover} alt="Discover" />
             <img src={pix} alt="Pix" />
           </div>
