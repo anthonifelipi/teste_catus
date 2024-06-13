@@ -22,7 +22,7 @@ Neste Projeto usei a tecnologia:
 **Clone o projeto deste repositório**
 
 ```bash
-$ git clone git@github.com:anthonifelipi/teste_catus.git
+$ git clone https://github.com/anthonifelipi/teste_catus.git
 ```
 
 **Siga esses passos no terminal**
