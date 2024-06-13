@@ -1,4 +1,4 @@
-# RESUMO
+# Projeto Catus - Site de Vendas
 
 <p align="center"> Projeto criado para um site de vendas da Catus. </p>
 <p>  </p>
